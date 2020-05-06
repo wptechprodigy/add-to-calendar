@@ -1,0 +1,40 @@
+{
+  "name": "add-to-calendar",
+  "version": "1.0.0",
+  "description": "Demo add to calendar feature",
+  "main": "index.js",
+  "author": "Waheed Afolabi <waheed.remote247@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@culturehq/add-to-calendar": "^1.0.4",
+    "react": "^16.13.1",
+    "react-datepicker": "^2.14.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
+  },
+  "scripts": {
+    "start": "yarn watch:css && react-scripts start",
+    "build": "yarn build:css && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.4"
+  }
+}
