@@ -14343,6 +14343,12 @@ video {
   transition-delay: 1000ms;
 }
 
+.chq-atc--button svg {
+  display: inline;
+  vertical-align: text-bottom;
+  margin-right: 10px;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;

@@ -50,10 +50,8 @@ function Form() {
 						Ends At
 					</DateTime>
 				</div>
-				<div className='chq-atc--wrap'>
-					<AddToCalendar
-						event={{ name, details, location, startsAt, endsAt }}
-					/>
+				<div className='chq-atc--wrap text-xl font-semibold'>
+					<AddToCalendar event={{ name, details, location, startsAt, endsAt }} />
 				</div>
 			</section>
 			<p className='text-center text-gray-500 text-xs mb-10'>
